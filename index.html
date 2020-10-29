@@ -19,7 +19,22 @@
           <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">Portfolio</li>
           <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">About</li>
           <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">Contact</li>
-          <li><img src="../assets/images/menu.svg" alt="menu" class="menu-icon invisible-in-md"></li>
+          <li id="myBtn"><img src="../assets/images/menu.svg" alt="menu" class="menu-icon invisible-in-md"></li>
+          
+          
+          <!-- The Menu Modal -->
+          <div id="myModal" class="menu-modal">
+
+            <!-- Menu Modal content -->
+            <div class="menu-modal-content">
+              <div class="close color-white">&times;</div>
+              <div class="font-size-3 font-bold py-1 color-white">Portfolio</div>
+              <div class="font-size-3 font-bold py-1 color-white">About</div>
+              <div class="font-size-3 font-bold py-1 color-white">Contact</div>
+              
+            </div>
+
+          </div>
         </ul>
       </nav>
     </div>
@@ -56,11 +71,13 @@
     <section class="p-2 width-limit w-100 mx-auto">
       <article class="width-limit w-100 mx-auto project-card">
         <div class="project-img-des-container">
-          <div class="p-2 my-auto project-img-container"><img src="/assets/images/bookshop.png" alt="bookshop" class="project-img"></div>
+          <div class="p-2 my-auto project-img-container"><img src="/assets/images/bookshop.png" alt="bookshop"
+              class="project-img"></div>
           <div class="p-2">
             <p class="font-size-3 font-bold py-half">Bookshop</p>
             <p class="font-size-md font-regular py-1 color-3">Lorem ipsum, dolor sit amet </p>
-            <p class="font-size-s font-regular py-1 color-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio natus eos </p>
+            <p class="font-size-s font-regular py-1 color-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Odio natus eos </p>
             <ul class="list-style-none d-flex project-tools py-2">
               <li>html</li>
               <li>css</li>
@@ -71,7 +88,7 @@
             </button>
           </div>
         </div>
-       
+
       </article>
     </section>
   </main>
@@ -79,6 +96,7 @@
   <footer>
 
   </footer>
-</body>
+  <script src="js/modal.js"></script>
+ </body>
 
 </html>

@@ -428,7 +428,6 @@ header {
 .project-img-container {
   /* background-color: var(--color-4); */
   border-radius: 15px;
-  
 }
 
 .project-tools li {
@@ -445,6 +444,42 @@ header {
   border-radius: 10px;
   border: 1px solid var(--color-1);
   background-color: white;
+}
+
+/* The Menu Modal (background) */
+.menu-modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: var(--color-1); /* Fallback color */
+  background-color: rgba(96, 112, 255, 0.95); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.menu-modal-content {
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 2.5rem;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Media queries */
@@ -493,8 +528,4 @@ header {
   .project-img-container {
     width: 50%;
   }
-}
-
-@media screen and (min-width: 1845px) {
-
 }

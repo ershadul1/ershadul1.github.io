@@ -1,0 +1,500 @@
+/* Variables */
+:root {
+  --color-1: #6070ff;
+  --color-2: #172b4d;
+  --color-3: #7a869a;
+  --color-4: #ebebff;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'light';
+  src: url("../assets/fonts/Poppins-Light.otf");
+}
+
+@font-face {
+  font-family: 'regular';
+  src: url("../assets/fonts/Poppins-Regular.otf");
+}
+
+@font-face {
+  font-family: 'bold';
+  src: url("../assets/fonts/Poppins-Bold.otf");
+}
+
+/* General styles */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+/* img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+} */
+
+/* font colors */
+
+.color-1 {
+  color: var(--color-1);
+}
+
+.color-2 {
+  color: var(--color-2);
+}
+
+.color-3 {
+  color: var(--color-3);
+}
+
+.color-4 {
+  color: var(--color-4);
+}
+
+.color-white {
+  color: #fff;
+}
+
+/* background colors */
+
+.bg-color-1 {
+  background-color: var(--color-1);
+}
+
+.bg-color-2 {
+  background-color: var(--color-2);
+}
+
+.bg-color-3 {
+  background-color: var(--color-3);
+}
+
+.bg-color-4 {
+  background-color: var(--color-4);
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* font styles */
+
+.font-light {
+  font-family: 'light', sans-serif;
+}
+
+.font-regular {
+  font-family: 'regular', sans-serif;
+}
+
+.font-bold {
+  font-family: 'bold', sans-serif;
+}
+
+/* display properties */
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-block {
+  display: inline-block;
+}
+
+.d-flex {
+  display: flex;
+}
+
+/* flex properties */
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* paddings */
+
+.p-half {
+  padding: 0.5rem;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.px-1-5 {
+  padding: 0 1.5rem;
+}
+
+.px-half {
+  padding: 0 0.5rem;
+}
+
+.py-half {
+  padding: 0.5rem 0;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.pl-1 {
+  padding-left: 1rem;
+}
+
+.pl-2 {
+  padding-left: 2rem;
+}
+
+.pl-3 {
+  padding-left: 3rem;
+}
+
+.pb-4 {
+  padding-bottom: 4rem;
+}
+
+/* margins */
+
+.my-half {
+  margin: 0.5rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.ml-half {
+  margin-left: 0.5rem;
+}
+
+.mr-half {
+  margin-right: 0.5rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.my-auto {
+  margin: auto 0;
+}
+
+.mx-half {
+  margin: 0 0.5rem;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+/* borders */
+
+.border-0 {
+  border: none;
+}
+
+.border {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.border-right {
+  border-right: 1px solid var(--color-1);
+}
+
+.border-bottom {
+  border-bottom: 2px solid #ccc;
+}
+
+.border-bottom-2 {
+  border-bottom: 1px solid var(--color-1);
+}
+
+.border-bottom-3 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* font sizes */
+
+.font-size-3 {
+  font-size: 3rem;
+}
+
+.font-size-lg {
+  font-size: 2rem;
+}
+
+.font-size-md {
+  font-size: 1.6rem;
+}
+
+.font-size-s {
+  font-size: 1.5rem;
+}
+
+.font-size-sm {
+  font-size: 1.2rem;
+}
+
+.font-size-xs {
+  font-size: 0.5rem;
+}
+
+/* miscellaneous */
+
+.h-200 {
+  height: 200px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.vh-90 {
+  height: 90vh;
+}
+
+.default-btn {
+  color: #fff;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.2rem;
+  max-width: 200px;
+}
+
+.default-btn:hover {
+  background-color: var(--color-2);
+  cursor: pointer;
+}
+
+.white-highlight:hover {
+  color: #fff;
+}
+
+.gray-highlight:hover {
+  color: var(--color-2);
+}
+
+.black-highlight:hover {
+  color: var(--color-3);
+}
+
+.image-highlight:hover {
+  opacity: 0.7;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+html {
+  font-size: 12px;
+  background-color: #f5f5f5;
+}
+
+img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+/* Custom Styles */
+
+body {
+  height: 3000px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.connect-icons {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.menu-icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.project-card {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.project-img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 1px 8px 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.project-img-des-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-img-container {
+  /* background-color: var(--color-4); */
+  border-radius: 15px;
+  
+}
+
+.project-tools li {
+  background-color: var(--color-4);
+  padding: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 15px;
+  color: var(--color-1);
+}
+
+.see-project-btn {
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  border: 1px solid var(--color-1);
+  background-color: white;
+}
+
+/* Media queries */
+@media screen and (min-width: 474px) {
+  .visible-in-sm {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .visible-in-md {
+    display: block;
+  }
+
+  .w-80-md {
+    width: 80%;
+  }
+
+  .justify-center-md {
+    justify-content: center;
+  }
+
+  .invisible-in-md {
+    display: none;
+  }
+
+  .width-limit {
+    width: 80%;
+  }
+
+  .project-img-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .visible-in-lg {
+    display: block;
+  }
+
+  .project-img-des-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project-img-container {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1845px) {
+
+}

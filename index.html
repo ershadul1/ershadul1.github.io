@@ -16,16 +16,17 @@
       <nav class="navbar d-flex justify-between p-2 align-center">
         <h1 class="font-bold color-1 font-size-lg">Ershadul Rayhan</h1>
         <ul class="list-style-none d-flex">
-          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5"><a href="#portfolio_link">Portfolio</a></li>
+          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5"><a
+              href="#portfolio_link">Portfolio</a></li>
           <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">About</li>
           <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">Contact</li>
-          <li class="myBtn_multi"><img src="../assets/images/menu.svg" alt="menu" class="menu-icon invisible-in-md"></li>
+          <li class="myBtn_multi"><img src="../assets/images/menu.svg" alt="menu" class="menu-icon invisible-in-md">
+          </li>
         </ul>
       </nav>
     </div>
   </header>
 
-<a href=""></a>
 
   <main>
     <section class="vh-90 p-2 width-limit w-100 mx-auto d-flex align-center">
@@ -47,15 +48,20 @@
           <li><a href="https://github.com/ershadul1" target="_self" rel="noopener noreferrer"><img
                 src="./assets/images/github.svg" alt="github-logo" class="d-block connect-icons pointer ml-2"></a>
           </li>
-          <li id="portfolio_link"><a href="https://www.linkedin.com/in/ershadulrayhan/" target="_self" rel="noopener noreferrer"><img
-                src="./assets/images/linkedin.svg" alt="linkedin-logo" class="d-block connect-icons pointer ml-2"></a>
+          <li id="portfolio_link"><a href="https://www.linkedin.com/in/ershadulrayhan/" target="_self"
+              rel="noopener noreferrer"><img src="./assets/images/linkedin.svg" alt="linkedin-logo"
+                class="d-block connect-icons pointer ml-2"></a>
           </li>
         </ul>
       </div>
 
     </section>
 
-    <section  class="p-2 width-limit w-100 mx-auto">
+
+    <section class="section-separator"></section>
+
+
+    <section class="p-2 width-limit w-100 mx-auto">
       <article class="width-limit w-100 mx-auto project-card">
         <div class="project-img-des-container">
           <div class="p-2 my-auto project-img-container"><img src="/assets/images/bookshop.png" alt="bookshop"
@@ -70,10 +76,38 @@
               <li>css</li>
               <li>Javascript</li>
             </ul>
-            <button class="see-project-btn font-size-md font-regular color-1 myBtn_multi">
+            <button class="see-project-btn my-1 font-size-md font-regular color-1 myBtn_multi pointer">
               See Project
             </button>
           </div>
+        </div>
+
+      </article>
+
+      <article class="article-separator"></article>
+
+      <article class="width-limit w-100 mx-auto project-card">
+        <div class="project-img-des-container">
+          
+          <div id="ordering" class="p-2 my-auto project-img-container"><img src="/assets/images/bookshop.png" alt="bookshop"
+            class="project-img"></div>
+
+          <div class="p-2">
+            <p class="font-size-3 font-bold py-half">Bookshop</p>
+            <p class="font-size-md font-regular py-1 color-3">Lorem ipsum, dolor sit amet </p>
+            <p class="font-size-s font-regular py-1 color-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Odio natus eos </p>
+            <ul class="list-style-none d-flex project-tools py-2">
+              <li>html</li>
+              <li>css</li>
+              <li>Javascript</li>
+            </ul>
+            <button class="see-project-btn my-1 font-size-md font-regular color-1 myBtn_multi pointer">
+              See Project
+            </button>
+          </div>
+
+          
         </div>
 
       </article>
@@ -91,10 +125,12 @@
     <!-- Menu Modal content -->
     <div class="menu-modal-content">
       <div class="close close_multi color-white">&times;</div>
-      <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#portfolio_link" class="modal-links">Portfolio</a></div>
-      <div class="font-size-3 font-bold py-1 color-white">About</div>
-      <div class="font-size-3 font-bold py-1 color-white">Contact</div>
-
+      <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#portfolio_link"
+          class="modal-links">Portfolio</a></div>
+      <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#about_link"
+          class="modal-links">About</a></div>
+      <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#contact_link"
+          class="modal-links">Contact</a></div>
     </div>
 
   </div>
@@ -105,8 +141,44 @@
 
     <!-- Modal content -->
     <div class="modal-content">
-      <span class="close close_multi">×</span>
-      <p>Some text in the Modal..</p>
+      <div class="d-flex justify-between p-2">
+        <p class="font-size-lg font-bold py-half">Bookshop</p>
+        <p class="ml-2 project-close close_multi pointer">×</p>
+      </div>
+
+      <p class="font-size-md font-regular py-1 color-3 pl-2">Lorem ipsum, dolor sit amet </p>
+
+      <div class="project-modal-des">
+        <div class="p-2 my-auto project-modal-img">
+          <img src="/assets/images/bookshop.png" alt="bookshop" class="project-img">
+        </div>
+
+        <div class="p-2">
+          <p class="font-size-s font-regular py-1 color-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Odio natus eos Lorem ipsum dolor sit amet consectetur adipisiccing elit. Harum, in quaerat itaque ing elit.
+            Harum, in quaerat itaque veniam
+            obcaecati voluptatum delectus,</p>
+
+          <ul class="list-style-none d-flex flex-wrap project-tools py-2">
+            <li class="my-half">html</li>
+            <li class="my-half">css</li>
+            <li class="my-half">Javascript</li>
+          </ul>
+
+          <div class="d-flex flex-wrap">
+            <a href="https://gracious-goldberg-aefc53.netlify.app/" target="_blank" class="d-block mr-1 my-half see-project-btn font-size-md font-regular color-1">
+              Live <img src="./assets/images/play.svg" alt="live-demo">
+            </a>
+            <a href="https://github.com/ershadul1/HTML-CSS-Capstone" target="_blank" class="d-block my-half see-project-btn font-size-md font-regular color-1">
+              Source<img src="./assets/images/github-blue.svg" alt="github-link">
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+
     </div>
 
   </div>

@@ -146,6 +146,10 @@
   align-items: center;
 }
 
+.align-right {
+  text-align: right;
+}
+
 .align-end {
   align-items: flex-end;
 }
@@ -157,9 +161,6 @@
 a {
   text-decoration: none;
   color: inherit;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* paddings */
@@ -226,6 +227,10 @@ a {
   margin: 1rem 0;
 }
 
+.my-3 {
+  margin: 3rem 0;
+}
+
 .ml-half {
   margin-left: 0.5rem;
 }
@@ -240,6 +245,10 @@ a {
 
 .ml-2 {
   margin-left: 2rem;
+}
+
+.mr-1 {
+  margin-right: 1rem;
 }
 
 .mx-auto {
@@ -398,7 +407,15 @@ header {
 }
 
 main {
-  margin-top: 3rem;
+  margin-top: 2rem;
+}
+
+.section-separator {
+  padding: 3rem;
+}
+
+.article-separator {
+  padding: 7rem;
 }
 
 .connect-icons {
@@ -444,7 +461,6 @@ main {
 
 .see-project-btn {
   padding: 1.5rem;
-  margin: 2rem 0;
   border-radius: 10px;
   border: 1px solid var(--color-1);
   background-color: white;
@@ -487,6 +503,11 @@ main {
   cursor: pointer;
 }
 
+.project-close {
+  color: var(--color-3);
+  font-size: 3rem;
+}
+
 @keyframes popup {
   0% {
     transform: scale(0.2);
@@ -518,7 +539,7 @@ main {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -530,13 +551,21 @@ main {
 
 /* Modal Content */
 .modal-content {
-  background-color: var(--color-1);
+  background-color: white;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
+  border-radius: 15px;
   width: 80%;
   z-index: 0;
   animation: popup 0.2s;
+}
+
+img[alt="live-demo"],
+img[alt="github-link"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 0.2rem;
 }
 
 @media screen and (min-width: 474px) {
@@ -576,6 +605,13 @@ main {
     display: block;
   }
 
+  .project-modal-des {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1440px) {
   .project-img-des-container {
     display: flex;
     flex-direction: row;
@@ -583,5 +619,9 @@ main {
 
   .project-img-container {
     width: 50%;
+  }
+
+  #ordering {
+    order: 2;
   }
 }

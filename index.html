@@ -18,8 +18,9 @@
         <ul class="list-style-none d-flex">
           <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5"><a
               href="#portfolio_link">Portfolio</a></li>
-          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">About</li>
-          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">Contact</li>
+          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5"><a href="#about_link">About</a></li>
+          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5"><a href="#contact_link">Contact</a>
+          </li>
           <li class="myBtn_multi"><img src="../assets/images/menu.svg" alt="menu" class="menu-icon invisible-in-md">
           </li>
         </ul>
@@ -39,16 +40,16 @@
 
         <p class="font-size-md font-light py-2 color-1">LETS CONNECT</p>
         <ul class="list-style-none d-flex">
-          <li><a href="https://twitter.com/ErshadulRayhan" target="_self"><img src="./assets/images/twitter.svg"
+          <li><a href="https://twitter.com/ErshadulRayhan" target="_blank"><img src="./assets/images/twitter.svg"
                 alt="twitter-logo" class="d-block connect-icons pointer"></a>
           </li>
           <li><a href="mailto:ershadul.rayhan@gmail.com"><img src="./assets/images/google.svg" alt="google-logo"
                 class="d-block connect-icons pointer ml-2"></a>
           </li>
-          <li><a href="https://github.com/ershadul1" target="_self" rel="noopener noreferrer"><img
+          <li><a href="https://github.com/ershadul1" target="_blank" rel="noopener noreferrer"><img
                 src="./assets/images/github.svg" alt="github-logo" class="d-block connect-icons pointer ml-2"></a>
           </li>
-          <li id="portfolio_link"><a href="https://www.linkedin.com/in/ershadulrayhan/" target="_self"
+          <li id="portfolio_link"><a href="https://www.linkedin.com/in/ershadulrayhan/" target="_blank"
               rel="noopener noreferrer"><img src="./assets/images/linkedin.svg" alt="linkedin-logo"
                 class="d-block connect-icons pointer ml-2"></a>
           </li>
@@ -60,6 +61,7 @@
 
     <section class="section-separator"></section>
 
+    <!-- Project Section -->
 
     <section class="p-2 width-limit w-100 mx-auto">
       <article class="width-limit w-100 mx-auto project-card">
@@ -68,61 +70,68 @@
               class="project-img"></div>
           <div class="p-2">
             <p class="font-size-3 font-bold py-half">Bookshop</p>
-            <p class="font-size-md font-regular py-1 color-3">Lorem ipsum, dolor sit amet </p>
-            <p class="font-size-s font-regular py-1 color-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Odio natus eos </p>
+            <p class="font-size-s font-regular py-1 color-3">Frontend of an online market place for books.</p>
             <ul class="list-style-none d-flex project-tools py-2">
               <li>html</li>
               <li>css</li>
-              <li>Javascript</li>
             </ul>
             <button class="see-project-btn my-1 font-size-md font-regular color-1 myBtn_multi pointer">
               See Project
             </button>
           </div>
         </div>
-
       </article>
 
       <article class="article-separator"></article>
 
       <article class="width-limit w-100 mx-auto project-card">
         <div class="project-img-des-container">
-          
-          <div id="ordering" class="p-2 my-auto project-img-container"><img src="/assets/images/bookshop.png" alt="bookshop"
-            class="project-img"></div>
-
+          <div id="ordering" class="p-2 my-auto project-img-container">
+            <img src="/assets/images/finance.png" alt="bookshop" class="project-img">
+          </div>
           <div class="p-2">
-            <p class="font-size-3 font-bold py-half">Bookshop</p>
-            <p class="font-size-md font-regular py-1 color-3">Lorem ipsum, dolor sit amet </p>
-            <p class="font-size-s font-regular py-1 color-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Odio natus eos </p>
+            <p class="font-size-3 font-bold py-half">Finance Tracker</p>
+            <p class="font-size-s font-regular py-1 color-3">A Finance tracker app that can track transactions</p>
             <ul class="list-style-none d-flex project-tools py-2">
               <li>html</li>
               <li>css</li>
-              <li>Javascript</li>
+              <li>Ruby</li>
+              <li>Ruby on rails</li>
             </ul>
             <button class="see-project-btn my-1 font-size-md font-regular color-1 myBtn_multi pointer">
               See Project
             </button>
           </div>
-
-          
         </div>
-
       </article>
+
+
+      <article class="article-separator"></article>
+
+      <article class="width-limit w-100 mx-auto project-card">
+        <div class="project-img-des-container">
+          <div class="p-2 my-auto project-img-container"><img src="/assets/images/ruby-linter.jpg" alt="bookshop"
+              class="project-img"></div>
+          <div class="p-2">
+            <p class="font-size-3 font-bold py-half">Ruby Linter</p>
+            <p class="font-size-s font-regular py-1 color-3">A linter for Ruby codes built with Ruby prohramming
+              language</p>
+            <ul class="list-style-none d-flex project-tools py-2">
+              <li>Ruby</li>
+            </ul>
+            <button class="see-project-btn my-1 font-size-md font-regular color-1 myBtn_multi pointer">
+              See Project
+            </button>
+          </div>
+        </div>
+      </article>
+
     </section>
   </main>
 
-  <!-- Trigger/Open The Modal -->
-
-
-
-
+  <!-- Menu Modal -->
 
   <div class="menu-modal modal_multi">
-
-    <!-- Menu Modal content -->
     <div class="menu-modal-content">
       <div class="close close_multi color-white">&times;</div>
       <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#portfolio_link"
@@ -132,71 +141,128 @@
       <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#contact_link"
           class="modal-links">Contact</a></div>
     </div>
-
   </div>
-  <!-- <button class="myBtn_multi">Open Modal2</button> -->
 
-  <!-- The Modal -->
+  <!-- Project Modal-1 -->
+
   <div class="modal modal_multi">
-
-    <!-- Modal content -->
     <div class="modal-content">
       <div class="d-flex justify-between p-2">
         <p class="font-size-lg font-bold py-half">Bookshop</p>
         <p class="ml-2 project-close close_multi pointer">×</p>
       </div>
-
-      <p class="font-size-md font-regular py-1 color-3 pl-2">Lorem ipsum, dolor sit amet </p>
-
       <div class="project-modal-des">
         <div class="p-2 my-auto project-modal-img">
           <img src="/assets/images/bookshop.png" alt="bookshop" class="project-img">
         </div>
 
         <div class="p-2">
-          <p class="font-size-s font-regular py-1 color-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Odio natus eos Lorem ipsum dolor sit amet consectetur adipisiccing elit. Harum, in quaerat itaque ing elit.
-            Harum, in quaerat itaque veniam
-            obcaecati voluptatum delectus,</p>
+          <p class="font-size-s font-regular py-1 color-3">This is an online market place for books. It has two pages
+            homepage and search page. The homepage shows different categories of books. The search page has a filter
+            side bar.</p>
 
           <ul class="list-style-none d-flex flex-wrap project-tools py-2">
             <li class="my-half">html</li>
             <li class="my-half">css</li>
-            <li class="my-half">Javascript</li>
           </ul>
 
           <div class="d-flex flex-wrap">
-            <a href="https://gracious-goldberg-aefc53.netlify.app/" target="_blank" class="d-block mr-1 my-half see-project-btn font-size-md font-regular color-1">
+            <a href="https://gracious-goldberg-aefc53.netlify.app/" target="_blank"
+              class="d-block mr-1 my-half see-project-btn font-size-md font-regular color-1">
               Live <img src="./assets/images/play.svg" alt="live-demo">
             </a>
-            <a href="https://github.com/ershadul1/HTML-CSS-Capstone" target="_blank" class="d-block my-half see-project-btn font-size-md font-regular color-1">
+            <a href="https://github.com/ershadul1/HTML-CSS-Capstone" target="_blank"
+              class="d-block my-half see-project-btn font-size-md font-regular color-1">
               Source<img src="./assets/images/github-blue.svg" alt="github-link">
             </a>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- Project Modal-2 -->
+
+  <div class="modal modal_multi">
+    <div class="modal-content">
+      <div class="d-flex justify-between p-2">
+        <p class="font-size-lg font-bold py-half">Finance Tracker</p>
+        <p class="ml-2 project-close close_multi pointer">×</p>
+      </div>
+      <div class="project-modal-des">
+        <div class="p-2 my-auto project-modal-img">
+          <img src="/assets/images/finance.png" alt="bookshop" class="project-img">
         </div>
 
+        <div class="p-2">
+          <p class="font-size-s font-regular py-1 color-3">This is a Finance tracker app. Users can create transactions
+            and groups. The transaction can have groups. Also a transaction can be a earning transaction or a spending
+            transaction. That means users can track their earning and spending at the same time.</p>
+
+          <ul class="list-style-none d-flex flex-wrap project-tools py-2">
+            <li class="my-half">html</li>
+            <li class="my-half">css</li>
+            <li class="my-half">Ruby</li>
+            <li class="my-half">Ruby on rails</li>
+          </ul>
+
+          <div class="d-flex flex-wrap">
+            <a href="https://agile-mesa-88353.herokuapp.com/" target="_blank"
+              class="d-block mr-1 my-half see-project-btn font-size-md font-regular color-1">
+              Live <img src="./assets/images/play.svg" alt="live-demo">
+            </a>
+            <a href="https://github.com/ershadul1/finance-tracker" target="_blank"
+              class="d-block my-half see-project-btn font-size-md font-regular color-1">
+              Source<img src="./assets/images/github-blue.svg" alt="github-link">
+            </a>
+          </div>
+        </div>
       </div>
-
-
     </div>
-
   </div>
 
-  <!-- The Modal -->
+
+  <!-- Project Modal-3 -->
+
   <div class="modal modal_multi">
-
-    <!-- Modal content -->
     <div class="modal-content">
-      <span class="close close_multi">×</span>
-      <p>Some text in the Modal..2</p>
-    </div>
+      <div class="d-flex justify-between p-2">
+        <p class="font-size-lg font-bold py-half">Ruby Linter</p>
+        <p class="ml-2 project-close close_multi pointer">×</p>
+      </div>
+      <div class="project-modal-des">
+        <div class="p-2 my-auto project-modal-img">
+          <img src="/assets/images/ruby-linter.jpg" alt="bookshop" class="project-img">
+        </div>
 
+        <div class="p-2">
+          <p class="font-size-s font-regular py-1 color-3">In this project I have built a linter for ruby using ruby
+            programming language. This linter will check for style issues in your ruby code. Currently it has six
+            features.</p>
+            <p class="font-size-s font-regular py-1 color-3">Indentation | Trailing spaces | Blank lines | Redundant spaces | Maximum line length | Final empty line</p>
+          <ul class="list-style-none d-flex flex-wrap project-tools py-2">
+            <li class="my-half">Ruby</li>
+          </ul>
+
+          <div class="d-flex flex-wrap">
+            <a href="https://repl.it/@Ershadul/Capstone-Ruby-Linter#bin/input.rb" target="_blank"
+              class="d-block mr-1 my-half see-project-btn font-size-md font-regular color-1">
+              Live <img src="./assets/images/play.svg" alt="live-demo">
+            </a>
+            <a href="https://github.com/ershadul1/Capstone-Ruby-Linter" target="_blank"
+              class="d-block my-half see-project-btn font-size-md font-regular color-1">
+              Source<img src="./assets/images/github-blue.svg" alt="github-link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
+  <section id="contact_link" class="section-separator"></section>
 
   <footer>
-
+    <script type="text/javascript" src="https://form.jotform.com/jsform/203044984599468"></script>
   </footer>
 
   <script src="./js/project-modal.js"></script>

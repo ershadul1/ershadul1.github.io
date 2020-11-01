@@ -455,11 +455,13 @@ footer {
 }
 
 .project-tools li {
-  background-color: var(--color-4);
+  background-color: var(--color-1);
   padding: 1rem;
   margin-right: 0.5rem;
   border-radius: 15px;
-  color: var(--color-1);
+  color: white;
+  font-family: 'bold', sans-serif;
+  font-size: 1.3rem;
 }
 
 .see-project-btn {

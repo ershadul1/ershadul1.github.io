@@ -450,17 +450,16 @@ footer {
 }
 
 .project-img-container {
-  /* background-color: var(--color-4); */
   border-radius: 15px;
 }
 
 .project-tools li {
-  background-color: var(--color-1);
+  background-color: var(--color-4);
   padding: 1rem;
   margin-right: 0.5rem;
   border-radius: 15px;
-  color: white;
-  font-family: 'bold', sans-serif;
+  color: #3f50e6;
+  font-family: 'regular', sans-serif;
   font-size: 1.3rem;
 }
 

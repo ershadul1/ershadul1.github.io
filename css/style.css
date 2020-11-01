@@ -576,11 +576,6 @@ img[alt="github-link"] {
   margin-left: 0.2rem;
 }
 
-.skills-logo {
-  height: 60px;
-  width: 60px;
-}
-
 @media screen and (min-width: 474px) {
   .visible-in-sm {
     display: block;

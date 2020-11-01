@@ -2,7 +2,7 @@
 :root {
   --color-1: #6070ff;
   --color-2: #172b4d;
-  --color-3: #7a869a;
+  --color-3: #344563;
   --color-4: #ebebff;
 }
 
@@ -319,6 +319,10 @@ a {
   font-size: 0.5rem;
 }
 
+.line-height {
+  line-height: 2.5rem;
+}
+
 /* miscellaneous */
 
 .h-200 {
@@ -393,10 +397,6 @@ img:hover {
 
 /* Custom Styles */
 
-body {
-  height: 3000px;
-}
-
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -406,7 +406,11 @@ header {
 }
 
 main {
-  margin-top: 2rem;
+  margin-top: 4rem;
+}
+
+footer {
+  margin-top: 4rem;
 }
 
 .section-separator {

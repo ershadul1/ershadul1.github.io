@@ -8,18 +8,31 @@
   <link rel="shortcut icon" href="favicon.png" />
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-RWBCB3D1SL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-RWBCB3D1SL');
+  </script>
 </head>
 
 <body class="bg-white">
   <header>
     <div class="width-limit w-100 mx-auto">
-      <nav class="navbar d-flex justify-between p-2 align-center">
-        <h1 class="font-bold color-1 font-size-lg">Ershadul Rayhan</h1>
+      <nav class="navbar d-flex justify-between p-1 align-center">
+        <h1 class="font-bold color-1 font-size-lg"><a href="https://www.ershadul.me/">Ershadul Rayhan</a></h1>
         <ul class="list-style-none d-flex">
-          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">Portfolio</li>
-          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">About</li>
-          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5">Contact</li>
-          <li><img src="../assets/images/menu.svg" alt="menu" class="menu-icon invisible-in-md"></li>
+          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5"><a
+              href="#portfolio_link">Portfolio</a></li>
+          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5"><a href="#about_link">About</a></li>
+          <li class="d-none visible-in-md font-regular color-2 font-size-md px-1-5"><a href="#contact_link">Contact</a>
+          </li>
+          <li class="myBtn_multi"><img src="../assets/images/menu.svg" alt="menu" class="menu-icon invisible-in-md">
+          </li>
         </ul>
       </nav>
     </div>
@@ -28,57 +41,381 @@
   <main>
     <section class="vh-90 p-2 width-limit w-100 mx-auto d-flex align-center">
       <div class="width-limit mx-auto">
-        <h1 class="font-size-3 font-bold py-half">I'm Rayhan</h1>
-        <p class="font-size-3 font-bold py-half">Welcome to my Portfolio!</p>
-        <p class="font-size-md font-regular py-2">I'm a Full Stack Developer and a passionate problem solver.</p>
+        <h1 class="font-size-3 font-bold py-half">Hello!</h1>
+        <h1 class="font-size-3 font-bold py-half">I'm Rayhan.</h1>
+        <p class="font-size-3 font-bold py-half">Welcome to my portfolio!</p>
+        <p class="font-size-md font-regular py-2">I'm a full-stack developer and a passionate problem solver.</p>
         <p class="font-size-md font-regular py-2">Specialities: <b>Ruby</b> | <b>Rails</b> | <b>Javascript</b> |
           <b>React</b> | <b>HTML</b> | <b>CSS</b></p>
 
         <p class="font-size-md font-light py-2 color-1">LETS CONNECT</p>
         <ul class="list-style-none d-flex">
-          <li><a href="https://twitter.com/ErshadulRayhan" target="_blank"><img src="./assets/images/twitter.svg"
-                alt="twitter-logo" class="d-block connect-icons pointer"></a>
+          <li><a href="https://twitter.com/ErshadulRayhan" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter fa-3x pointer"
+                aria-hidden="true"></i></a>
           </li>
-          <li><a href="mailto:ershadul.rayhan@gmail.com"><img src="./assets/images/google.svg" alt="google-logo"
-                class="d-block connect-icons pointer ml-2"></a>
+          <li class="ml-2"><a href="https://github.com/ershadul1" target="_blank" rel="noopener noreferrer"><i
+                class="fa fa-github fa-3x pointer" aria-hidden="true"></i></a>
           </li>
-          <li><a href="https://github.com/ershadul1" target="_blank" rel="noopener noreferrer"><img
-                src="./assets/images/github.svg" alt="github-logo" class="d-block connect-icons pointer ml-2"></a>
+          <li class="ml-2"><a href="https://stackoverflow.com/users/13857438/ershadul-rayhan" target="_blank"
+              rel="noopener noreferrer"><i class="fa fa-stack-overflow fa-3x pointer" aria-hidden="true"></i></a>
           </li>
-          <li><a href="https://www.linkedin.com/in/ershadulrayhan/" target="_blank" rel="noopener noreferrer"><img
-                src="./assets/images/linkedin.svg" alt="linkedin-logo" class="d-block connect-icons pointer ml-2"></a>
+          <li class="ml-2"><a href="https://www.linkedin.com/in/ershadulrayhan/" target="_blank"
+              rel="noopener noreferrer"><i class="fa fa-linkedin fa-3x pointer" aria-hidden="true"></i></a>
           </li>
         </ul>
       </div>
 
     </section>
 
-    <section class="p-2 width-limit w-100 mx-auto">
+    <div class="section-separator"></div>
+
+    <!-- Project Section -->
+
+    <section class="p-2 width-limit w-100 mx-auto" id="portfolio_link">
+      <h2 class="font-size-3 font-bold py-6 text-align-center">Portfolio</h2>
       <article class="width-limit w-100 mx-auto project-card">
+        <h2 class="d-none">Hidden Tag</h2>
         <div class="project-img-des-container">
-          <div class="p-2 my-auto project-img-container"><img src="/assets/images/bookshop.png" alt="bookshop" class="project-img"></div>
+          <div class="p-2 my-auto project-img-container"><img src="/assets/images/bookshop.png" alt="bookshop"
+              class="project-img"></div>
           <div class="p-2">
             <p class="font-size-3 font-bold py-half">Bookshop</p>
-            <p class="font-size-md font-regular py-1 color-3">Lorem ipsum, dolor sit amet </p>
-            <p class="font-size-s font-regular py-1 color-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio natus eos </p>
+            <p class="font-size-s font-regular py-1 color-3 line-height">Frontend of an online market place for books.
+            </p>
             <ul class="list-style-none d-flex project-tools py-2">
-              <li>html</li>
-              <li>css</li>
-              <li>Javascript</li>
+              <li class="my-half">html</li>
+              <li class="my-half">css</li>
             </ul>
-            <button class="see-project-btn font-size-md font-regular color-1">
+            <button type="button" class="see-project-btn my-1 font-size-md font-regular color-1 myBtn_multi pointer">
               See Project
             </button>
           </div>
         </div>
-       
       </article>
+
+      <div class="article-separator"></div>
+
+      <article class="width-limit w-100 mx-auto project-card">
+        <h2 class="d-none">Hidden Tag</h2>
+        <div class="project-img-des-container">
+          <div id="ordering" class="p-2 my-auto project-img-container">
+            <img src="/assets/images/finance.png" alt="bookshop" class="project-img">
+          </div>
+          <div class="p-2">
+            <p class="font-size-3 font-bold py-half">Finance Tracker</p>
+            <p class="font-size-s font-regular py-1 color-3 line-height">A Finance tracker app that can track
+              transactions. For mobile display only.</p>
+            <ul class="list-style-none d-flex project-tools py-2 flex-wrap">
+              <li class="my-half">html</li>
+              <li class="my-half">css</li>
+              <li class="my-half">Ruby</li>
+              <li class="my-half">Ruby on rails</li>
+            </ul>
+            <button type="button" class="see-project-btn my-1 font-size-md font-regular color-1 myBtn_multi pointer">
+              See Project
+            </button>
+          </div>
+        </div>
+      </article>
+
+      <div class="article-separator"></div>
+
+      <article class="width-limit w-100 mx-auto project-card">
+        <h2 class="d-none">Hidden Tag</h2>
+        <div class="project-img-des-container">
+          <div class="p-2 my-auto project-img-container"><img src="/assets/images/ruby-linter.jpg" alt="bookshop"
+              class="project-img"></div>
+          <div class="p-2">
+            <p class="font-size-3 font-bold py-half">Ruby Linter</p>
+            <p class="font-size-s font-regular py-1 color-3 line-height">A linter for ruby codes built with ruby
+              programming
+              language</p>
+            <ul class="list-style-none d-flex project-tools py-2">
+              <li class="my-half">Ruby</li>
+            </ul>
+            <button type="button" class="see-project-btn my-1 font-size-md font-regular color-1 myBtn_multi pointer">
+              See Project
+            </button>
+          </div>
+        </div>
+      </article>
+
     </section>
   </main>
 
-  <footer>
+  <!-- Menu Modal -->
 
+  <div class="menu-modal modal_multi">
+    <div class="menu-modal-content">
+      <div class="close close_multi color-white">&times;</div>
+      <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#portfolio_link"
+          class="modal-links">Portfolio</a></div>
+      <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#about_link"
+          class="modal-links">About</a></div>
+      <div class="font-size-3 font-bold py-1 color-white"><a href="https://www.ershadul.me#contact_link"
+          class="modal-links">Contact</a></div>
+    </div>
+  </div>
+
+  <!-- Project Modal-1 -->
+
+  <div class="modal modal_multi">
+    <div class="modal-content">
+      <div class="d-flex justify-between p-2">
+        <p class="font-size-lg font-bold py-half">Bookshop</p>
+        <p class="ml-2 project-close close_multi pointer">×</p>
+      </div>
+      <div class="project-modal-des">
+        <div class="p-2 my-auto project-modal-img">
+          <img src="/assets/images/bookshop.png" alt="bookshop" class="project-img">
+        </div>
+
+        <div class="p-2">
+          <p class="font-size-s font-regular py-1 color-3 line-height">This is an online market place for books. It has
+            two pages
+            homepage and search page. The homepage shows different categories of books. The search page has a filter
+            side bar.</p>
+
+          <ul class="list-style-none d-flex flex-wrap project-tools py-2">
+            <li class="my-half">html</li>
+            <li class="my-half">css</li>
+          </ul>
+
+          <div class="d-flex flex-wrap">
+            <a href="https://gracious-goldberg-aefc53.netlify.app/" target="_blank" rel="noopener noreferrer"
+              class="d-block mr-1 my-half see-project-btn font-size-md font-regular color-1">
+              Live <img src="./assets/images/play.svg" alt="live-demo">
+            </a>
+            <a href="https://github.com/ershadul1/HTML-CSS-Capstone" target="_blank" rel="noopener noreferrer"
+              class="d-block my-half see-project-btn font-size-md font-regular color-1">
+              Source<img src="./assets/images/github-blue.svg" alt="github-link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project Modal-2 -->
+
+  <div class="modal modal_multi">
+    <div class="modal-content">
+      <div class="d-flex justify-between p-2">
+        <p class="font-size-lg font-bold py-half">Finance Tracker</p>
+        <p class="ml-2 project-close close_multi pointer">×</p>
+      </div>
+      <div class="project-modal-des">
+        <div class="p-2 my-auto project-modal-img">
+          <img src="/assets/images/finance.png" alt="bookshop" class="project-img">
+        </div>
+
+        <div class="p-2">
+          <p class="font-size-s font-regular py-1 color-3 line-height">This is a finance tracker app. Users can create
+            transactions
+            and groups. The transaction can have groups. Also a transaction can be a earning transaction or a spending
+            transaction. That means users can track their earning and spending at the same time.</p>
+
+          <ul class="list-style-none d-flex flex-wrap project-tools py-2">
+            <li class="my-half">html</li>
+            <li class="my-half">css</li>
+            <li class="my-half">Ruby</li>
+            <li class="my-half">Ruby on rails</li>
+          </ul>
+
+          <div class="d-flex flex-wrap">
+            <a href="https://agile-mesa-88353.herokuapp.com/" target="_blank" rel="noopener noreferrer"
+              class="d-block mr-1 my-half see-project-btn font-size-md font-regular color-1">
+              Live <img src="./assets/images/play.svg" alt="live-demo">
+            </a>
+            <a href="https://github.com/ershadul1/finance-tracker" target="_blank" rel="noopener noreferrer"
+              class="d-block my-half see-project-btn font-size-md font-regular color-1">
+              Source<img src="./assets/images/github-blue.svg" alt="github-link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Project Modal-3 -->
+
+  <div class="modal modal_multi">
+    <div class="modal-content">
+      <div class="d-flex justify-between p-2">
+        <p class="font-size-lg font-bold py-half">Ruby Linter</p>
+        <p class="ml-2 project-close close_multi pointer">×</p>
+      </div>
+      <div class="project-modal-des">
+        <div class="p-2 my-auto project-modal-img">
+          <img src="/assets/images/ruby-linter.jpg" alt="bookshop" class="project-img">
+        </div>
+
+        <div class="p-2">
+          <p class="font-size-s font-regular py-1 color-3 line-height">In this project I have built a linter for ruby
+            using ruby
+            programming language. This linter will check for style issues in your ruby code. Currently it has six
+            features.</p>
+          <p class="font-size-s font-regular py-1 color-3 line-height">Indentation | Trailing spaces | Blank lines |
+            Redundant
+            spaces | Maximum line length | Final empty line</p>
+          <ul class="list-style-none d-flex flex-wrap project-tools py-2">
+            <li class="my-half">Ruby</li>
+          </ul>
+
+          <div class="d-flex flex-wrap">
+            <a href="https://repl.it/@Ershadul/Capstone-Ruby-Linter#bin/input.rb" target="_blank"
+              rel="noopener noreferrer" class="d-block mr-1 my-half see-project-btn font-size-md font-regular color-1">
+              Live <img src="./assets/images/play.svg" alt="live-demo">
+            </a>
+            <a href="https://github.com/ershadul1/Capstone-Ruby-Linter" target="_blank" rel="noopener noreferrer" 
+              class="d-block my-half see-project-btn font-size-md font-regular color-1">
+              Source<img src="./assets/images/github-blue.svg" alt="github-link">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about_link" class="section-separator"></div>
+  <div class="section-separator"></div>
+  <!-- About Me  -->
+
+  <section class="p-2 width-limit w-100 mx-auto">
+    <h2 class="d-none">Hidden Tag</h2>
+    <article class="width-limit w-100 mx-auto d-flex flex-wrap justify-between">
+      <h2 class="d-none">Hidden Tag</h2>
+      <div>
+        <h3 class="font-size-3 font-bold py-half">About</h3>
+        <h3 class="font-size-3 font-bold py-half">Myself</h3>
+        <p class="font-size-md font-light py-2 color-2 line-height">Hello I’m a software developer! I can help you<br>
+          build a product ,
+          feature or website. Look through<br> some of my work and experience! If you like what<br> you see and have a
+          project
+          you need coded,<br> don’t hesitate to contact me.
+        </p>
+        <p class="font-size-md font-light py-2 color-1">LETS CONNECT</p>
+        <ul class="list-style-none d-flex">
+          <li><a href="https://twitter.com/ErshadulRayhan" target="_blank" rel="noopener noreferrer"><i
+                class="fa fa-twitter fa-3x pointer" aria-hidden="true"></i></a>
+          </li>
+          <li class="ml-2"><a href="https://github.com/ershadul1" target="_blank" rel="noopener noreferrer"><i
+                class="fa fa-github fa-3x pointer" aria-hidden="true"></i></a>
+          </li>
+          <li class="ml-2"><a href="https://stackoverflow.com/users/13857438/ershadul-rayhan" target="_blank"
+              rel="noopener noreferrer"><i class="fa fa-stack-overflow fa-3x pointer" aria-hidden="true"></i></a>
+          </li>
+          <li class="ml-2"><a href="https://www.linkedin.com/in/ershadulrayhan/" target="_blank"
+              rel="noopener noreferrer"><i class="fa fa-linkedin fa-3x pointer" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <a href="https://docs.google.com/document/d/1LAaJu2u-oq57Yk18SYd-gzHhV_M-PBMFlZzLHaijbBE/edit?usp=sharing"
+            target="_blank" rel="noopener noreferrer"
+            class="d-block my-3 see-project-btn font-size-md font-regular color-1">
+            Get My Resume
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <h3 class="font-size-md font-regular py-1 pl-1">
+            Languages
+          </h3>
+          <ul class="list-style-none d-flex flex-wrap py-1">
+            <li class="p-1">
+              <figure class="p-1 bg-color-4">
+                <img src="./assets/images/javascript-logo.svg" alt="javascript-logo" />
+                <figcaption class="color-2 font-size-sm font-light text-align-center">Javascript</figcaption>
+              </figure>
+            </li>
+            <li class="p-1">
+              <figure class="p-1 bg-color-4">
+                <img src="./assets/images/ruby-logo.svg" alt="ruby-logo" />
+                <figcaption class="color-2 font-size-sm font-light text-align-center">Ruby</figcaption>
+              </figure>
+            </li>
+            <li class="p-1">
+              <figure class="p-1 bg-color-4">
+                <img src="./assets/images/html-logo.svg" alt="html-logo" />
+                <figcaption class="color-2 font-size-sm font-light text-align-center">HTML</figcaption>
+              </figure>
+            </li>
+            <li class="p-1">
+              <figure class="p-1 bg-color-4">
+                <img src="./assets/images/css-logo.svg" alt="css-logo" />
+                <figcaption class="color-2 font-size-sm font-light text-align-center">CSS</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-size-md font-regular py-1 pl-1">
+            Frameworks
+          </h3>
+          <ul class="list-style-none d-flex flex-wrap py-1">
+            <li class="p-1">
+              <figure class="p-1 bg-color-4">
+                <img src="./assets/images/rails-logo.svg" alt="ruby-on-rails-logo" />
+                <figcaption class="color-2 font-size-sm font-light text-align-center">Ruby on rails</figcaption>
+              </figure>
+            </li>
+            <li class="p-1">
+              <figure class="p-1 bg-color-4">
+                <img src="./assets/images/react-logo.svg" alt="react-logo" />
+                <figcaption class="color-2 font-size-sm font-light text-align-center">React</figcaption>
+              </figure>
+
+            </li>
+            <li class="p-1">
+              <figure class="p-1 bg-color-4">
+                <img src="./assets/images/bootstrap-logo.svg" alt="bootstarp-logo" />
+                <figcaption class="color-2 font-size-sm font-light text-align-center">Bootstrap</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <footer id="contact_link">
+
+    <div class="p-2 width-limit w-100 mx-auto">
+      <div class="width-limit w-100 mx-auto">
+        <script src="https://form.jotform.com/jsform/203044984599468"></script>
+      </div>
+
+    </div>
+
+    <section class="border-top">
+      <h2 class="d-none">This is hidden</h2>
+      <div class="copyright-section p-1 mx-auto d-flex justify-between align-center flex-wrap">
+        <p class="font-size-sm font-light color-2">Copyright&copy; 2020 ershadul.me . All rights reserved. Created by
+          <b>Ershadul Hakim Rayhan</b>.</p>
+        <ul class="list-style-none d-flex my-1">
+          <li><a href="https://twitter.com/ErshadulRayhan" target="_blank" rel="noopener noreferrer"><i
+                class="fa fa-twitter fa-3x pointer" aria-hidden="true"></i></a>
+          </li>
+          <li class="ml-2"><a href="https://github.com/ershadul1" target="_blank" rel="noopener noreferrer"><i
+                class="fa fa-github fa-3x pointer" aria-hidden="true"></i></a>
+          </li>
+          <li class="ml-2"><a href="https://stackoverflow.com/users/13857438/ershadul-rayhan" target="_blank"
+              rel="noopener noreferrer"><i class="fa fa-stack-overflow fa-3x pointer" aria-hidden="true"></i></a>
+          </li>
+          <li class="ml-2"><a href="https://www.linkedin.com/in/ershadulrayhan/" target="_blank"
+              rel="noopener noreferrer"><i class="fa fa-linkedin fa-3x pointer" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </footer>
+
+  <script src="./js/project-modal.js"></script>
 </body>
 
 </html>
